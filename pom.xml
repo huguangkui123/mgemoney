@@ -7,6 +7,16 @@
   <groupId>com.uek.project</groupId>
   <artifactId>mgrmoney-app</artifactId>
   <version>1.0</version>
+
+    <!--子模块-->
+  <modules>
+    <module>entity</module>
+      <module>manager</module>
+      <module>saler</module>
+    <module>util</module>
+    <module>swagger</module>
+    <module>api</module>
+  </modules>
   <packaging>pom</packaging>
 
   <!-- 项目属性配置-->
